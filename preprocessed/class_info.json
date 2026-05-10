@@ -1,0 +1,91 @@
+{
+  "all_labels": [
+    "Normal",
+    "IR_7",
+    "IR_14",
+    "IR_21",
+    "IR_28",
+    "Ball_7",
+    "Ball_14",
+    "Ball_21",
+    "Ball_28",
+    "OR@6_7",
+    "OR@6_14",
+    "OR@6_21",
+    "OR@3_7",
+    "OR@3_21",
+    "OR@12_7",
+    "OR@12_21"
+  ],
+  "label2idx": {
+    "Normal": 0,
+    "IR_7": 1,
+    "IR_14": 2,
+    "IR_21": 3,
+    "IR_28": 4,
+    "Ball_7": 5,
+    "Ball_14": 6,
+    "Ball_21": 7,
+    "Ball_28": 8,
+    "OR@6_7": 9,
+    "OR@6_14": 10,
+    "OR@6_21": 11,
+    "OR@3_7": 12,
+    "OR@3_21": 13,
+    "OR@12_7": 14,
+    "OR@12_21": 15
+  },
+  "num_classes": 16,
+  "feature_names": [
+    "RMS",
+    "Kurtosis",
+    "Skewness",
+    "CrestFactor",
+    "PeakPeak",
+    "MeanAbs",
+    "Energy",
+    "DomFreq",
+    "FFTPeak",
+    "BPFO_Energy",
+    "BPFI_Energy",
+    "BSF_Energy",
+    "SpectralCentroid",
+    "SpectralEntropy"
+  ],
+  "class_weight_dict": {
+    "0": 0.3748,
+    "1": 1.1269,
+    "2": 1.1269,
+    "3": 1.1245,
+    "4": 1.1316,
+    "5": 1.1221,
+    "6": 1.1245,
+    "7": 1.1221,
+    "8": 1.1341,
+    "9": 1.1245,
+    "10": 1.1269,
+    "11": 1.1197,
+    "12": 1.1245,
+    "13": 1.1245,
+    "14": 1.1221,
+    "15": 1.1221
+  },
+  "window_size": 1024,
+  "step_size": 512,
+  "sample_rate": 12000,
+  "train_loads": [
+    0,
+    2
+  ],
+  "val_loads": [
+    1
+  ],
+  "test_loads": [
+    3
+  ],
+  "split_counts": {
+    "train": 8510,
+    "val": 4494,
+    "test": 4499
+  }
+}
